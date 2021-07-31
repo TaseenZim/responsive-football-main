@@ -1,0 +1,225 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: rgb(236, 234, 234);
+}
+.container{
+    overflow: hidden;
+    margin-top: 0;
+}
+
+/* Conmebol Copa America 2021 style Starts */
+
+header {
+    position: absolute;
+    width: 1160px;
+height: 44px;
+margin-left: 156px;
+margin-top: 45px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .anchor{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 36px;
+    font-weight: 500;
+}
+.login-button{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 123px;
+    height: 44px;
+    background-color: #E02C6D;
+    transition: transform 0.5s;
+}
+.login-button:hover{
+    transform: scale(0.80);
+}
+.login-button a{
+    text-decoration: none;
+    color: white;
+}
+.login-button .login-icon{
+    margin-right: 8px;
+}
+.copa-america-and-image{
+    background-color: #2D25A0;
+    width: 1440px;
+height: 677px;
+display: flex;
+}
+.copa-america-and-image .copa-america h1{
+    width: 485px;
+height: 230px;
+    font-size: 64px;
+    color: white;
+    margin-top: 207px;
+    margin-left: 156px;
+}
+.copa-america .watch-live-button {
+    width: 168px;
+height: 44px;
+background: #E02C6D;
+color: white;
+display: flex ;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+margin-left: 156px;
+font-size: 16px;
+transition: transform 0.5s;
+}
+.copa-america .watch-live-button:hover{
+    transform: scale(0.80);
+}
+.copa-america .watch-live-button .arrow-icon{
+    margin-top: 3px;
+    margin-left: 8px
+}
+.copa-america .watch-live-button a {
+    text-decoration: none;
+    color: white;
+}
+.copa-america-and-image .copa-america-image img{
+    width: 556.01px 50%;
+height: 438px;
+margin-top: 153px;
+margin-left: 170px;
+}
+
+/* Conmebol Copa America 2021 Ends */
+
+/* Playes List Style */
+
+.players{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 35px;
+    justify-items: center;
+}
+.players a{
+    text-decoration: none;
+}
+.player{
+    background-color: white;
+    width: 330px;
+height: 474px;
+padding-bottom: 15px;
+border-radius: 10px;
+transition: transform 0.5s;
+}
+.player:hover{
+    transform: scale(1.1,1.1);
+}
+.players .player .player-pic img{
+    width: 300px;
+height: 256px;
+padding: 15px;
+border-radius: 20px;
+}
+.players .player .player-info {
+    width: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+.players .player .player-info h2{
+    margin: 0;
+    color: black;
+}
+.players .player .player-info p{
+    font-size: 13px;
+    color: #6C6C6C;
+    
+}
+
+/* highlight styles */
+
+.highlights-and-image{
+    margin-top: 125px;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.highlight-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1160px;
+    height: 427px;
+    background-color: white;
+    border-radius: 10px;
+}
+.highlights-and-image .highlight-details .highlight-info{
+    width: 469px;
+height: 241px;
+}
+.highlights-and-image .highlight-details .highlight-info h1{
+    margin: 0;
+}
+.highlights-and-image .highlight-details .highlight-info p{
+    font-size: 13px;
+    color: #6C6C6C;
+}
+.highlights-and-image .highlight-details .highlight-info .highlight-button{
+    width: 173px;
+height: 44px;
+background-color: #E02C6D;
+transition: transform 0.5s;
+}
+.highlights-and-image .highlight-details .highlight-info .highlight-button:hover{
+    transform: scale(0.80);
+}
+.highlights-and-image .highlight-details .highlight-info .highlight-button a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.highlights-and-image .highlight-details .highlight-info .highlight-button .highlight-icon{
+    margin-left: 5px;
+}
+
+
+.highlights-and-image .highlight-details .highlight-image img{
+    width: 527px;
+height: 387px;
+margin-top: 10px;
+}
+
+/* end creadits */
+.end{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.end-logo-and-footer .end-logo img{
+    width: 483.87px;
+height: 110px;
+}
+.end .end-logo-and-footer .social-icons , footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.end .end-logo-and-footer .social-icons a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+footer .name{
+    font-size: 16px;
+}
